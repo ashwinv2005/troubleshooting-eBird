@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Alagar Hills.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Alagar Hills</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						78.16190428934905,10.08237392048735,0 78.16475337530889,10.06450679641658,0 78.17369255855232,10.0672881907781,0 78.18215208496575,10.06591515387305,0 78.19108992050084,10.06265169839167,0 78.2014103872654,10.06549556146468,0 78.213633142661,10.07151533370596,0 78.22542513162047,10.07375758974577,0 78.24424599529422,10.08114657741783,0 78.25694878267646,10.08669264168031,0 78.26258914435549,10.09735192646192,0 78.26539957304334,10.10523738637367,0 78.27199250171579,10.11587828946266,0 78.27763812636164,10.12884085710841,0 78.28138406368134,10.1418123352364,0 78.28569705146897,10.16261254209738,0 78.28330324691588,10.17188799669682,0 78.27243210627736,10.16775394390624,0 78.26300171592047,10.16037358366333,0 78.25074019313277,10.15532080998518,0 78.23708415918964,10.14425611808394,0 78.21827513261682,10.14059942917977,0 78.20937106746509,10.13504106157675,0 78.19903843979152,10.11977857358819,0 78.19010887743204,10.11563157804561,0 78.17932312072755,10.09983828936548,0 78.16190428934905,10.08237392048735,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

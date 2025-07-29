@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>West Kameng low.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>West Kameng low </name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						92.24919153596643,27.04887499873431,0 92.15833931021372,27.08049383973856,0 92.0944613045347,27.12753439387404,0 92.04780094861434,27.14828036931154,0 92.02054629719792,27.11161572564501,0 92.02096196012904,27.07247550503357,0 92.06875496386199,27.00478732325832,0 92.076546831418,26.92923612888327,0 92.08962699058931,26.89530916549058,0 92.2896012916661,26.80032634218164,0 93.03833603741029,26.87627577007932,0 93.05188119981308,26.90495791915327,0 93.04882296442179,26.95423395686209,0 93.0529146066272,26.98682585959608,0 93.03591627701984,27.02878958293451,0 93.02975328343113,27.07375641448141,0 93.01746205297694,27.13680270495384,0 92.996901090167,27.18921294181862,0 92.97823909145424,27.2183830405278,0 92.93653822158535,27.23868508459165,0 92.90237227752627,27.2443346504915,0 92.85387540127229,27.24806263283962,0 92.77860675639762,27.23814366850378,0 92.71723899772206,27.21193334496744,0 92.65672696347707,27.18427616763863,0 92.61008018512605,27.17001738543774,0 92.55918864159612,27.14711949496687,0 92.5229574946856,27.12957702967088,0 92.49734030040287,27.11646289414947,0 92.46780171409368,27.09826350730238,0 92.44929222972348,27.08766684746233,0 92.43843463857499,27.07433553908611,0 92.4093156918176,27.05519266373794,0 92.24919153596643,27.04887499873431,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
