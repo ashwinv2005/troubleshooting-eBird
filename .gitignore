@@ -38,51 +38,15 @@ rsconnect/
 
 # raw data files
 /*.txt
-/*.gif
-/*.jpeg
-/*.tiff
-/*.tif
-/*.png
-/*.svg
-/*.xlsx
-/*.pdf
 
 # random files
 /*.ini
 
 # zipped files
-/*.zip
+#/*.zip
 
 # RStudio project files
 /*.Rproj
 
-# all shapefile related files
-#/*.dbf
-#/*.sbn
-#/*.sbx
-#/*.shp
-#/*.shp.xml
-#/*.shx
-#/*.cpg
-#/*.prj
-
-# specific folders in Ashwin's GitHub
-#India/
-#India Districts/
-#India States/
-requested_filter_polygons/
-All Trends/
-All Maps/
-All Trend Graphs/
-#Chennai/
-#New Delhi/
-#Mumbai/
-#Kolkata/
-#Hyderabad/
-#Bangalore/
-snippets/
-#NE_places/
-#NE_box/
-#NE_graticules/
-#NE_countries/
-#Division@Range6/
+# folders
+Uttarakhand/
